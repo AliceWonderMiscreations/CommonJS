@@ -1,0 +1,18 @@
+{
+    "name": "jquery",
+    "homepage": "https://jquery.com/",
+    "version": "1.12.4",
+    "license": [
+        {
+            "name": "MIT",
+            "url": "https://jquery.org/license/"
+        }
+    ],
+    "mime": "application/javascript",
+    "checksum": "sha256:430f36f9b5f21aae8cc9dca6a81c4d3d84da5175eaedcf2fdc2c226302cb3575",
+    "filepath": "awonderphp/commonjs/js/jquery-1.12.4.js",
+    "lastmod": "2016-05-20T17:17Z",
+    "minified": false,
+    "srcurl": "/js/jquery-1.12.4.js",
+    "async": true
+}
