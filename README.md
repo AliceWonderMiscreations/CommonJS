@@ -7,12 +7,23 @@ libraries, and the JavaScript libraries that the JSON definitions refer to.
 
 Linger on, your pale blue eyes.
 
-This is for the experiment
-[ResourceManager](https://github.com/AliceWonderMiscreations/ResourceManager)
-that I am developing, in hopes of improving how third party resources are
-handled by web applications.
+This is for the experimental JS/CSS Resource Manager I am developing.
 
-Right now, only jQuery is here. And only most recent versions from the major
-branches (1,2,3) and no UI variants.
+Interfaces and Abstract Class:
+[AwonderPHP/NotReallyPsrResourceManager](https://github.com/AliceWonderMiscreations/NotReallyPsrResourceManager)
 
-This is experimental data.
+Proof of Concept Implementation:
+[AwonderPHP/](https://github.com/AliceWonderMiscreations/ResourceManager)
+
+This repo contains various versions of jQuery with the corresponding JSON
+configuration files that would be needed to implement the resource manager.
+
+This repo is NOT intended as a source for jQuery.
+
+In the hopeful even that this ResourceManager concept takes off, a "virtual"
+vendor called "flossjs" would be created to contain the product "jquery"
+amongst other products until such time that jQuery wanted to take of
+distribution using this method themselves, when of course they would use
+whatever vendor they wanted.
+
+This repo presently is just experimental data for an experimental project.
