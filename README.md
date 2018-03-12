@@ -4,17 +4,20 @@ jQuery Collection
 This package contains jQuery 1,2,3 with necessary configuration files to create
 JavaScriptResource objects as defined in the
 [\AWonderPHP\NotReallyPsrResourceManager](https://github.com/AliceWonderMiscreations/NotReallyPsrResourceManager)
-collection of interfaces,
+collection of interfaces.
 
-Only the latest versions of jQuery 1 and 2 are included. Every major.minor
-version of jQuery 3 is included, but only the latest point release within.
+Only the latest versions of jQuery 1 and 2 are included. Every `major.minor`
+version of jQuery 3 is included, but only the latest `point` release within
+(e.g. jQuery 3.3.0 is not included because newer point releases exist).
 
 
 jQuery Library Files
 --------------------
 
 The files in the `js/` directory were taken directly from the
-[https://code.jquery.com/jquery/](https://code.jquery.com/jquery/) and have not been modified in any way.
+[https://code.jquery.com/jquery/](https://code.jquery.com/jquery/) and have not
+been modified in any way. Feel free to verify the sha256 (or other) digest
+yourself, I would in your shoes.
 
 
 JSON Configuration Files
@@ -43,5 +46,15 @@ tracking cookies or not, but I do not think they do at this time.
 
 With third party CDNs it is always a *possibility* they may in the future.
 
-You will need to makes sure `https://code.jquery.com/` is in your Content
+You will need to make sure `https://code.jquery.com/` is in your Content
 Security Policy white list for scripts if you use Content Security Policy.
+
+I highly recommend doing this. Their CDN is fast and fully supports the
+integrity tag that `JavaScriptResource` implementations will create. However it
+is *very bad form* to automatically default to a third party web resource, so
+the system administrator must ‘opt in’ by running the provided script.
+
+Note that you must re-run the script on update or the newer versions of jQuery
+will not be configured to use the jQuery CDN.
+
+
