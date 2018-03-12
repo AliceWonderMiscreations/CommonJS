@@ -2,7 +2,7 @@
 <!-- PSR-2 but allow closing tags and with some Doc Comment stuff added -->
 <ruleset name="AWonderPHP Standard">
   <description>The coding standard for AWonderPHP</description>
-  <file>lib</file>
+  <file>bin</file>
   <arg name="basepath" value="." />
   <arg name="colors" />
   <rule ref="PSR2">

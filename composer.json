@@ -1,0 +1,26 @@
+{
+    "name": "flossjs/jquery",
+    "description": "The core jQuery library for use with JavaScriptResourceObject",
+    "homepage": "https://github.com/AliceWonderMiscreations/jQuery",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alice Wonder",
+            "role": "Unemployed Maniac",
+            "email": "paypal@domblogger.net"
+        },
+        {
+            "name": "The jQuery Team",
+            "role": "jQuery Developers",
+            "homepage": "http://jquery.com/"
+        }
+    ],
+    "require": {
+        "php": "~7.1.0 || ~7.2.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "vimeo/psalm": "^0"
+    }
+}
