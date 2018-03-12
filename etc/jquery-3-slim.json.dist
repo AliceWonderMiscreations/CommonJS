@@ -10,7 +10,7 @@
     ],
     "mime": "application/javascript",
     "checksum": "sha256:7cd5c914895c6b4e4120ed98e73875c6b4a12b7304fbf9586748fe0a1c57d830",
-    "filepath": "awonderphp/commonjs/js/jquery-3.3.1.slim.js",
+    "filepath": "flossjs/jquery/js/jquery-3.3.1.slim.js",
     "lastmod": "2018-01-20T17:24Z",
     "minified": false,
     "srcurl": "/js/jquery-3.3.1.slim.js",

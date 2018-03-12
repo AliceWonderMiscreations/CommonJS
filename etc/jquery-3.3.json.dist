@@ -10,7 +10,7 @@
     ],
     "mime": "application/javascript",
     "checksum": "sha256:d8aa24ecc6cecb1a60515bc093f1c9da38a0392612d9ab8ae0f7f36e6eee1fad",
-    "filepath": "awonderphp/commonjs/js/jquery-3.3.1.js",
+    "filepath": "flossjs/jquery/js/jquery-3.3.1.js",
     "lastmod": "2018-01-20T17:24Z",
     "minified": false,
     "srcurl": "/js/jquery-3.3.1.js",

@@ -1,29 +1,47 @@
-CommonJS
-========
-Common JS libraries for ResourceManager Experiment
+jQuery Collection
+=================
 
-This is JSON definitions for Free Libre Open Source commonly used JavaScript
-libraries, and the JavaScript libraries that the JSON definitions refer to.
+This package contains jQuery 1,2,3 with necessary configuration files to create
+JavaScriptResource objects as defined in the
+[\AWonderPHP\NotReallyPsrResourceManager](https://github.com/AliceWonderMiscreations/NotReallyPsrResourceManager)
+collection of interfaces,
 
-Linger on, your pale blue eyes.
+Only the latest versions of jQuery 1 and 2 are included. Every major.minor
+version of jQuery 3 is included, but only the latest point release within.
 
-This is for the experimental JS/CSS Resource Manager I am developing.
 
-Interfaces and Abstract Class:
-[AwonderPHP/NotReallyPsrResourceManager](https://github.com/AliceWonderMiscreations/NotReallyPsrResourceManager)
+jQuery Library Files
+--------------------
 
-Proof of Concept Implementation:
-[AwonderPHP/](https://github.com/AliceWonderMiscreations/ResourceManager)
+The files in the `js/` directory were taken directly from the
+[https://code.jquery.com/jquery/](https://code.jquery.com/jquery/) and have not been modified in any way.
 
-This repo contains various versions of jQuery with the corresponding JSON
-configuration files that would be needed to implement the resource manager.
 
-This repo is NOT intended as a source for jQuery.
+JSON Configuration Files
+------------------------
 
-In the hopeful even that this ResourceManager concept takes off, a "virtual"
-vendor called "flossjs" would be created to contain the product "jquery"
-amongst other products until such time that jQuery wanted to take of
-distribution using this method themselves, when of course they would use
-whatever vendor they wanted.
+The JSON configuration files for use with classes that implement the interfaces
+in the
+[\AWonderPHP\NotReallyPsrResourceManager](https://github.com/AliceWonderMiscreations/NotReallyPsrResourceManager)
+namespace are located in the `etc/` directory and as distributed all end with the `.dist` suffix.
 
-This repo presently is just experimental data for an experimental project.
+Those files should not be modified.
+
+To point the configuration files to serve jQuery from a different host than the
+host the web application is running on, copy the `.dist` files to have the same
+name but without the `.dist` suffix, and then edit the `srcurl` property to
+point to the intended URL.
+
+
+Using the jQuery CDN
+--------------------
+
+A PHP script called `jQueryCDN` is provided in the `bin/` directory that will
+make localized copies of the configuration files for you pointing to the jQuery
+CDN. This is done strictly as a convenience, I do not know if their CDN uses
+tracking cookies or not, but I do not think they do at this time.
+
+With third party CDNs it is always a *possibility* they may in the future.
+
+You will need to makes sure `https://code.jquery.com/` is in your Content
+Security Policy white list for scripts if you use Content Security Policy.

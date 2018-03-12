@@ -10,7 +10,7 @@
     ],
     "mime": "application/javascript",
     "checksum": "sha256:05b85d96f41fff14d8f608dad03ab71e2c1017c2da0914d7c59291bad7a54f8e",
-    "filepath": "awonderphp/commonjs/js/jquery-2.2.4.min.js",
+    "filepath": "flossjs/jquery/js/jquery-2.2.4.min.js",
     "lastmod": "2016-05-20T17:23Z",
     "minified": true,
     "srcurl": "/js/jquery-2.2.4.min.js",
