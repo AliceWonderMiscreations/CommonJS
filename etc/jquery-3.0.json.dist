@@ -1,0 +1,17 @@
+{
+    "name": "jquery",
+    "homepage": "https://jquery.com/",
+    "version": "3.0.0",
+    "license": [
+        {
+            "name": "MIT",
+            "url": "https://jquery.org/license/"
+        }
+    ],
+    "mime": "application/javascript",
+    "checksum": "sha256:8eb3cb67ef2f0f1b76167135cef6570a409c79b23f0bc0ede71c9a4018f1408a",
+    "filepath": "flossjs/jquery/js/jquery-3.0.0.js",
+    "lastmod": "2016-06-09T18:02Z",
+    "minified": false,
+    "srcurl": "/js/jquery-3.0.0.js"
+}
