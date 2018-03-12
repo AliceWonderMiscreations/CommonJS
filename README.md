@@ -6,9 +6,21 @@ JavaScriptResource objects as defined in the
 [\AWonderPHP\NotReallyPsrResourceManager](https://github.com/AliceWonderMiscreations/NotReallyPsrResourceManager)
 collection of interfaces.
 
-Only the latest versions of jQuery 1 and 2 are included. Every `major.minor`
-version of jQuery 3 is included, but only the latest `point` release within
-(e.g. jQuery 3.3.0 is not included because newer point releases exist).
+Only the latest versions of jQuery 1 and 2 are included.
+
+Every `major.minor.point` release of jQuery 3 that is included will be retained
+for a minimum of twelve months after jQuery ceases support for jQuery 3 unless
+a particular `major.minor.point` release has a severe bug that could compromise
+the security of clients loading it.
+
+Currently the following `major.minor.point` releases are included:
+
+* jquery-1.12.4 (regular, minified)
+* jquery-2.2.4 (regular, minified)
+* jquery-3.0.0 (regular, minified, regular slim, slim minified)
+* jquery-3.1.1 (regular, minified, regular slim, slim minified)
+* jquery-3.2.1 (regular, minified, regular slim, slim minified)
+* jquery-3.3.1 (regular, minified, regular slim, slim minified)
 
 
 jQuery Library Files
