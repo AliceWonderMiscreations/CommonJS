@@ -13,6 +13,5 @@
     "filepath": "flossjs/jquery/js/jquery-2.2.4.js",
     "lastmod": "2016-05-20T17:23Z",
     "minified": false,
-    "srcurl": "/js/jquery-2.2.4.js",
-    "async": true
+    "srcurl": "/js/jquery-2.2.4.js"
 }

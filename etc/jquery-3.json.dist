@@ -13,6 +13,5 @@
     "filepath": "flossjs/jquery/js/jquery-3.3.1.js",
     "lastmod": "2018-01-20T17:24Z",
     "minified": false,
-    "srcurl": "/js/jquery-3.3.1.js",
-    "async": true
+    "srcurl": "/js/jquery-3.3.1.js"
 }
