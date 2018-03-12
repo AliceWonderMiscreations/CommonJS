@@ -71,3 +71,5 @@ Note that you must re-run the script on update or the newer versions of jQuery
 will not be configured to use the jQuery CDN.
 
 
+-----------------------------------
+__EOF__
