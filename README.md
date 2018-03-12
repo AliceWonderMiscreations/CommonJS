@@ -39,10 +39,11 @@ point to the intended URL.
 Using the jQuery CDN
 --------------------
 
-A PHP script called `jQueryCDN` is provided in the `bin/` directory that will
-make localized copies of the configuration files for you pointing to the jQuery
-CDN. This is done strictly as a convenience, I do not know if their CDN uses
-tracking cookies or not, but I do not think they do at this time.
+A PHP script called `jQueryCDN.php` is provided in the `bin/` directory that
+will make localized copies of the configuration files for you pointing to the
+jQuery CDN. This is done strictly as a convenience, I do not know if their CDN
+uses tracking cookies or not, but I do not think they do at this time and I
+highly doubt they will in the foreseeable future.
 
 With third party CDNs it is always a *possibility* they may in the future.
 
